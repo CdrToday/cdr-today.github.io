@@ -1,1 +1,1 @@
-[home page](https://cdr-today.github.io/intro)
+[home page](https://cdr-today.github.io/intro/)
