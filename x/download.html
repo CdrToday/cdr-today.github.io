@@ -1,23 +1,18 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 跳转中....
 
 <hr/>
 
-<a href='https://cdr-today.github.io/intro/download.html'> 主页</a>
+<a href='https://cdr-today.github.io/intro'> 主页</a>
 
 <script>
-export default {
-  mounted () {
-    import('./lib-that-access-window-on-import').then(module => {
-      var u = window.navigator.userAgent;
-      if (/android/i.test(u)) {
-          window.location.href = 'https://ct-1253442844.cos.ap-shanghai.myqcloud.com/apk/cdr.today.apk'
-      } else if (/iPad|iPhone|iPod/.test(u) && !window.MSStream) {
-          window.location.href = 'https://testflight.apple.com/join/rZzzQmPb'
-      } else {
-          window.location.href = '/download';
-      }
-    })
-  }
-}
+ var u = window.navigator.userAgent;
+ if (/android/i.test(u)) {
+   window.location.href = 'https://ct-1253442844.cos.ap-shanghai.myqcloud.com/apk/cdr.today.apk'
+ } else if (/iPad|iPhone|iPod/.test(u) && !window.MSStream) {
+   window.location.href = 'https://testflight.apple.com/join/rZzzQmPb'
+ } else {
+   window.location.href = 'https://cdr-today.github.io/intro/download.html';
+ }
 </script>

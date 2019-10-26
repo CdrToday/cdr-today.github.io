@@ -1,5 +1,1 @@
-### bald support
-
-<hr/>
-
-<a href='/intro'>主页</a>
+[home page](https://cdr-today.github.io/intro)
